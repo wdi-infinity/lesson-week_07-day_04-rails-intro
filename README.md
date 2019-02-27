@@ -54,7 +54,7 @@ action associated with it ('read one' vs 'read all', for instance).
 One common way of dividing up these four responsibilities is the
 **Model-View-Controller** (MVC) architecture pattern. This pattern involves
 making three core types of components, each responsible for a different part of
-the API's functionality.
+the server's functionality.
 
 A **Model** directly manages the data in our application, and provides a
 representation of that data for the rest of the application to use.
@@ -78,7 +78,7 @@ code to run?
 MVC architecture is very common in web applications, and Rails gives us the
 tools to spin up applications that are roughly in line with the idea of MVC.
 
-## Lab - Act Out an MVC API
+## Lab - Act Out an MVC
 
 We're going to act out the various parts of an MVC application. Link up with
 another team so that you're in a group of eight, and assign each member of
